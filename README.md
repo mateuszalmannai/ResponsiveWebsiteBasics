@@ -1,2 +1,4 @@
-# ResponsiveWebsiteBasics
-Coursera -- Responsive Website Basics
+ResponsiveWebsiteBasics
+==
+
+## Coursera -- Responsive Website Basics
