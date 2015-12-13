@@ -2,3 +2,50 @@
 .thin_border{
 	border: 1px solid black;
 }
+
+.indent{
+	margin-left: 10px;
+}
+
+.gap_below{
+	margin-bottom: 25px;
+}
+
+body{
+	background: black;
+	color: white;
+}
+
+a{
+	color:gray;
+	text-decoration: none;
+}
+
+
+a:hover{
+	color:black;
+	background: white;
+	text-decoration: none;
+}
+
+h1{
+	font-family: sans-serif;
+}
+
+/* Responsiveness */
+@media (min-width: 750px) {
+	.responsive{
+		display: inline-block;
+		width: 200px;
+		border: 1px solid black;
+	}
+}
+
+@media (min-width: 1000px) {
+	.responsive {
+		display: inline-block;
+		width: 500px;
+		border: 1px solid black;
+	}
+}
+
