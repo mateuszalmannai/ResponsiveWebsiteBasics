@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Counter Example</title>
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+<h1 id="number" onclick="count();"/>
+</body>
+
+<script type="text/javascript">
+  var counter = 0;
+  $("#number").html(counter);
+  function count(){
+    counter = counter + 1;
+    $("#number").html(counter);
+  };
+</script>
+</html>
